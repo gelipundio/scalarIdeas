@@ -1,0 +1,25 @@
+{
+  "name": "coinflip",
+  "version": "1.0.0",
+  "description": "coin flipper simulator",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gelipundio/scalarIdeas.git"
+  },
+  "author": "FNevarez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gelipundio/scalarIdeas/issues"
+  },
+  "homepage": "https://github.com/gelipundio/scalarIdeas#readme",
+  "dependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^4.0.1",
+    "standard": "^10.0.3"
+  }
+}
