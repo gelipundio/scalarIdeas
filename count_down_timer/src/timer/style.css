@@ -1,0 +1,29 @@
+.timer {
+  margin-left: auto;
+  margin-right: auto;
+  width: 465px;
+}
+
+.timeContainer{
+  width: 95px;
+  height: 80px;
+  float: left;
+  border-style: solid;
+  border-color: #E0E1E3;
+  border-width: 1px;
+  border-radius: 7px;
+  margin-left: 7.5px;
+  margin-right: 7.5px;
+}
+
+.timeContainer .time {
+  font-size: xx-large;
+  color: #1D333E;
+  margin-top: 10px;
+}
+
+.timeContainer .text {
+  font-size: smaller;
+  color: #AEB1B4;
+  margin-top: -5px;
+}
