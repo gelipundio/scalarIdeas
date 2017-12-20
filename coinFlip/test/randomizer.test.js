@@ -11,17 +11,17 @@ describe('randomNumber()', () => {
   })
 
   it('should be following the basic rules', () => {
-	let result = randomNumber(500)
-	expect(500).to.be.greaterThan(result)
-	result = randomNumber(1)
-	expect(1).to.be.greaterThan(result)
-	result = randomNumber(500)
-	expect(500).to.be.greaterThan(result)
+    let result = randomNumber(500)
+    expect(500).to.be.greaterThan(result)
+    result = randomNumber(1)
+    expect(1).to.be.greaterThan(result)
+    result = randomNumber(500)
+    expect(500).to.be.greaterThan(result)
   })
 
   it('lets test it many times against the same number', () => {
-	  for(let x = 1; x <= 500; x++){
-		expect(200).to.be.greaterThan(randomNumber(200))
-	  }
+    for (let x = 1; x <= 500; x++) {
+      expect(200).to.be.greaterThan(randomNumber(200))
+    }
   })
 })
